@@ -186,7 +186,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=FTPfiles
+CMAKE_PROJECT_NAME:STATIC=FTP
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -247,8 +247,14 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Value Computed by CMake
+FTP_BINARY_DIR:STATIC=/home/rooted/Documents/lab-04-boost-filesystem/cmake-build-debug
+
 //Dependencies for the target
 FTP_LIB_DEPENDS:STATIC=general;Boost::filesystem;
+
+//Value Computed by CMake
+FTP_SOURCE_DIR:STATIC=/home/rooted/Documents/lab-04-boost-filesystem
 
 //Value Computed by CMake
 FTPfiles_BINARY_DIR:STATIC=/home/rooted/Documents/lab-04-boost-filesystem/cmake-build-debug

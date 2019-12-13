@@ -19,7 +19,7 @@ void printFinFile(const path &p,
     file.date = file.name.substr(17, 8);
     file.type = p.extension().string();
     if (file.balance == "balance_" && stoi(file.number) && file.separator == "_"
-    && stoi(file.date) && file.type == ".txt") {
+    && stoi(file.date) && file.type == ".txt" && file.name.substr(25,4) != ".old") {
         std::cout << p.parent_path().string().substr(18) + " " +
         p.filename().string() + '\n';
         if (accounts.find(file.number) == accounts.end()) {
@@ -68,8 +68,7 @@ void analyse(const path& p,
             std::cout << p.string().substr(18) <<
                       " - директория, содержащая:\n";
         } else if (is_symlink(p)) {
-            path symlinkPath = read_symlink(p);
-            analyse(symlinkPath, accounts);
+            analyse(read_symlink(p), accounts);
         } else {
             std::cout << p <<
                       "существует, но не является директорией "

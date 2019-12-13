@@ -17,7 +17,7 @@ HunterGate(
   SHA1 "9a3594a61227967fb92159339ba326701b287b19"
 )
 
-project(Bmstu_Lab04_boostFilesystem)
+project(FTPfiles)
 
 hunter_add_package(Boost COMPONENTS system filesystem)
 find_package(Boost CONFIG REQUIRED system filesystem)

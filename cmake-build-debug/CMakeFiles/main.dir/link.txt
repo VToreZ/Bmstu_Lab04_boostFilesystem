@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/main.dir/sources/main.cpp.o  -o main libFTPd.a /home/rooted/.hunter/_Base/9a3594a/511a137/48401e9/Install/lib/libboost_filesystem-mt-d-x64.a 

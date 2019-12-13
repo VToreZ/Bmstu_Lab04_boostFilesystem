@@ -1,0 +1,4 @@
+/home/rooted/Documents/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/rooted/Documents/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/FTP.dir
+/home/rooted/Documents/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rooted/Documents/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/main.dir

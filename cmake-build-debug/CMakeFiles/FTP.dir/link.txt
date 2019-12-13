@@ -1,0 +1,2 @@
+/usr/bin/ar qc libFTPd.a  CMakeFiles/FTP.dir/sources/FTPfiles.cpp.o
+/usr/bin/ranlib libFTPd.a

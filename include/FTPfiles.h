@@ -17,7 +17,7 @@ struct file{
     string date;
     string type;
 };
-static string mypath="D:\\Projects\\laba4\\ftp";
+static string mypath="/home/rooted/Documents/lab-04-boost-filesystem/ftp";
 string getLatestDate(const string &date1, const string &date2);
 void printFinFile(const path &p, map<string, pair <unsigned int, string>>& accounts);
 void printAccountsInfo(const path &path_to_dir, map<string, pair <unsigned int, string>>& accounts);
